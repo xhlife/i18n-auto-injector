@@ -1,0 +1,26 @@
+{
+  "name": "i18n-auto-injector",
+  "version": "1.0.0",
+  "description": "🚀 自动将 JSX/TSX/JS/TS/Vue 文件中的中文文本转换为 $t() 国际化函数调用",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xhlife/i18n-auto-injector.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xhlife/i18n-auto-injector/issues"
+  },
+  "homepage": "https://github.com/xhlife/i18n-auto-injector#readme",
+  "dependencies": {
+    "@babel/generator": "^7.27.5",
+    "@babel/traverse": "^7.27.4",
+    "@vue/compiler-sfc": "^3.5.17"
+  }
+}
